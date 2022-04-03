@@ -1,0 +1,282 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+nav {
+  display: flex;
+  width: 100%;
+  font-family: "Prompt", sans-serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(22, 21, 21);
+}
+.navleft {
+  display: flex;
+  width: 50%;
+  left: 0;
+  margin-left: 0%;
+}
+
+.navright {
+  display: flex;
+  width: 30%;
+}
+.navleft img {
+  width: 12%;
+  background-color: white;
+  margin-left: 7%;
+}
+nav div div {
+  color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+nav div div:hover {
+  color: cyan;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+hr {
+  box-shadow: 0px 2.5px 7px cyan;
+}
+.info1 {
+  display: flex;
+  flex-direction: column;
+}
+.i1 {
+  color: white;
+  margin: 4%;
+  padding: 2%;
+  display: flex;
+}
+.edu h1 {
+  font-size: 40px;
+  color: cyan;
+}
+.name h1 {
+  font-size: 40px;
+  color: cyan;
+}
+.i2 {
+  margin: 4%;
+  color: white;
+  margin: 4%;
+  padding: 2%;
+  display: flex;
+}
+.cont {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.name {
+  margin-bottom: 5%;
+}
+.edu {
+  margin-bottom: 5%;
+}
+.i2 img {
+  width: 40%;
+  padding-right: 3%;
+}
+.img {
+  width: 140%;
+  margin-top: -5%;
+}
+.i3 h1 {
+  font-size: 40px;
+  color: cyan;
+}
+.i3 img {
+  width: 80%;
+  padding: 5%;
+}
+.foo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+.i3 {
+  display: flex;
+  margin-top: 10%;
+}
+.foo h1 {
+  margin-bottom: 10%;
+}
+.exp {
+  font-size: 40px;
+  color: cyan;
+  font-weight: 900;
+}
+.i4 {
+  margin-top: 10%;
+  display: flex;
+  padding: 5%;
+  width: 100%;
+}
+.exp {
+  margin-bottom: 10%;
+}
+.i4 img {
+  align-self: center;
+  justify-self: center;
+  margin-top: 15%;
+  width: 100%;
+  height: 100%;
+}
+.ppp {
+  margin-left: 10%;
+}
+.pict {
+  width: 500%;
+  height: 9000%;
+}
+.ach {
+  font-size: 40px;
+  color: cyan;
+  font-weight: 900;
+}
+.i5 img {
+  width: 50%;
+  /* margin-top: 10%; */
+}
+.i5 {
+  display: flex;
+  margin-top: 10%;
+}
+.gpl {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.i5 img {
+  width: 45%;
+  padding: 5%;
+}
+.ach {
+  margin-bottom: 10%;
+}
+.ending {
+  background: url("https://bit-by-bits.github.io/Coding-Club-Frontend-Task1/follow.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30%;
+  padding-right: 30%;
+  position: relative;
+}
+.ending i {
+  position: absolute;
+  top: 70%;
+}
+#insta {
+  position: absolute;
+  left: 44%;
+  font-size: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1%;
+}
+#insta:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  color: palevioletred;
+  border: 2px solid palevioletred;
+}
+#fb {
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1%;
+}
+#fb:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  color: rgb(70, 70, 248);
+  border: 2px solid rgb(70, 70, 248);
+}
+#link:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  color: greenyellow;
+  border: 2px solid greenyellow;
+}
+#link {
+  position: absolute;
+  left: 56%;
+  font-size: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1%;
+}
+footer {
+  display: flex;
+  width: 100%;
+  /* height: 30%; */
+  background-color: rgb(22, 21, 21);
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+footer img {
+  width: 50%;
+}
+.side1 {
+  width: 30%;
+}
+.side2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+hr {
+  width: 100%;
+}
+.side3 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.side4 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-right: 5%;
+}
+.closing {
+  background-color: black;
+}
+@media only screen and (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+  .navmob {
+    display: flex;
+    width: 100%;
+  }
+
+  hr {
+    width: 100vh;
+  }
+  .navleft {
+    width: 50%;
+  }
+  .log {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .navmob {
+    display: none;
+  }
+  hr {
+    width: 100vh;
+  }
+}
